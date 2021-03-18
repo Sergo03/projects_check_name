@@ -19,12 +19,12 @@ function onCheck(e) {
     console.log(pnValue);
     arrFam.forEach(name => {
         if (surValue.toLowerCase().includes(name.toLowerCase())||nameValue.toLowerCase().includes(name.toLowerCase())) {
-            console.log('есть совпадения фамилии или имени');
+            console.log('есть совпадения фамилии');
         }
     });
     arrNme.forEach(name => {
         if (nameValue.toLowerCase().includes(name.toLowerCase())||surValue.toLowerCase().includes(name.toLowerCase())) {
-            console.log('есть совпадения имени или фамилии');
+            console.log('есть совпадения имени ');
         }
     });
     arrPn.forEach(name => {
